@@ -1,17 +1,17 @@
-# # change string into lower case
-# a = "POOJA"
-# b = a.lower()
-# print(b)
-#
-# # change string into upper case
-# a = "pooja"
-# b = a.upper()
-# print(b)
-#
-# # remove whitespace from beginning and end
-# a = "   Pooja  "
-# b= a.strip()
-# print(b)
+# change string into lower case
+a = "POOJA"
+b = a.lower()
+print(b)
+
+# change string into upper case
+a = "pooja"
+b = a.upper()
+print(b)
+
+# remove whitespace from beginning and end
+a = "   Pooja  "
+b= a.strip()
+print(b)
 # print(a.rstrip())
 # print(a.lstrip())
 #

@@ -15,7 +15,7 @@ driver.maximize_window()
 driver.find_element(By.XPATH,"//input[@time='ten']")
 driver.find_element(By.CSS_SELECTOR, "input[time='ten']")  #  .classname, #id
 
-#dropdown
+dropdown
 from selenium.webdriver.support.ui import Select
 select = Select(driver.find_element(By.ID,'dropdown-class-example')) # static drop down must need 'SELECT' tag
 select.select_by_index(2)
@@ -72,12 +72,15 @@ select.select_by_value("attribute's vslue") # for this we need value attribute i
 #screeenshot
 # driver.save_screenshot("screen.png")
 
-#headlessmode
-# from selenium.webdriver.chrome.options import Options
-#
-# chrome_options =  webdriver.ChromeOptions()
-#
-# chrome_options.add_argument("headless")
-# driver = webdriver.Chrome(executable_path=" chromedriver.exe",options= chrome_options)
+headlessmode
+from selenium.webdriver.chrome.options import Options
 
-# time.sleep(5)
+chrome_options =  webdriver.ChromeOptions()
+
+chrome_options.add_argument("headless")
+driver = webdriver.Chrome(executable_path=" chromedriver.exe",options= chrome_options)
+
+
+
+print("vsrfcs")
+time.sleep(5)
