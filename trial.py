@@ -12,19 +12,19 @@ driver = webdriver.Chrome(executable_path="C:\Automation\chromedriver_win32\chro
 driver = webdriver.Chrome(executable_path="C:\Automation\chromedriver_win32\chromedriver.exe")
 driver.get("https://rahulshettyacademy.com/AutomationPractice/")
 driver.maximize_window()
-# driver.find_element(By.XPATH,"//input[@time='ten']")
-# driver.find_element(By.CSS_SELECTOR, "input[time='ten']")  #  .classname, #id
+driver.find_element(By.XPATH,"//input[@time='ten']")
+driver.find_element(By.CSS_SELECTOR, "input[time='ten']")  #  .classname, #id
 
-# #dropdown
-# from selenium.webdriver.support.ui import Select
-# select = Select(driver.find_element(By.ID,'dropdown-class-example')) # static drop down must need 'SELECT' tag
-# select.select_by_index(2)
-# select.select_by_visible_text("Option1")
-# select.select_by_value("attribute's vslue") # for this we need value attribute in html
-#
-# # for dynamic dropdown we use for loop (with break statement) and compare with our selection then click on the element
-#
-#
+#dropdown
+from selenium.webdriver.support.ui import Select
+select = Select(driver.find_element(By.ID,'dropdown-class-example')) # static drop down must need 'SELECT' tag
+select.select_by_index(2)
+select.select_by_visible_text("Option1")
+select.select_by_value("attribute's vslue") # for this we need value attribute in html
+
+# for dynamic dropdown we use for loop (with break statement) and compare with our selection then click on the element
+
+
 #Checkbox
 # checkbox = driver.find_element(By.ID,"checkBoxOption1")
 # checkbox.click()
