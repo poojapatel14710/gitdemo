@@ -1,0 +1,15 @@
+[1mdiff --git a/trial.py b/trial.py[m
+[1mindex 41d65b4..9cbcc4c 100644[m
+[1m--- a/trial.py[m
+[1m+++ b/trial.py[m
+[36m@@ -82,6 +82,10 @@[m [mdriver = webdriver.Chrome(executable_path=" chromedriver.exe",options= chrome_op[m
+ [m
+ [m
+ [m
+[32m+[m[32mprint("vsrfcs")[m
+[32m+[m
+[32m+[m[32mprint("vsrfcs")[m
+[32m+[m[32mprint("vsrfcs")[m
+ print("vsrfcs")[m
+ [m
+ print("vsrfcs")[m
